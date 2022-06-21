@@ -1,8 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #9292AE;
-    
+    height: 760px;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 10px;
 }
-.box{
+
+.overall{
+    width: 170px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: -9px;
+    margin-left: -12px;
+    height: 785px;
+    background-color: #EA4C3C;
+}
+/* .box{
     width: 150px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -11,7 +28,7 @@ body{
     height: 780px;
     background-color: #EA4C3C;
     
-}
+}*/
 .box1{
     background-color: #F1F1FB;
     margin-left: 20px;
@@ -20,6 +37,5 @@ body{
     border-top-left-radius: 20px;
     padding: 90px;
     margin-top: 100px;
-    
-    
+    display: ;   
 }
