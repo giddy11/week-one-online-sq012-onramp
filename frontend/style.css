@@ -1,41 +1,51 @@
 body{
+    height: 850px;
     background-color: #9292AE;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .container{
-    height: 1000px;
-    display: flex;
-    gap: 20px;
-
-}
-
-.container div {
-    /* border: 30px solid; */
     width: 100%;
-    /* height: 500px; */
+    height: 100vh;
 }
 
-#one{
-    background-color: #EA4C3C;
+.content{
+    display: flex;
+    float: left;
+    border: 1px solid red;
+    width: 70%;
+    height: 80%;
+    /* margin: 5% auto; */
+    margin-left: 400px;
+    margin-top: 7%;
+}
+
+.redminor{
+    display: flex;
+    border: 1px solid blue;
+    width: 20%;
+    height: 120%;
+    margin-left: -300px;
+    margin-top: -60px;
     border-radius: 20px;
-    width: 250px;
+    background-color: #EA4C3C;
+
 }
 
-#two{
-    background-color: #9292AE;
-    height: 880px;
-    margin-top: 50px;
-    margin-left: -150px;
-    border-top-left-radius: 20px;
+.notred{
+    display: flex;
+    border: 1px solid yellow;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 13px;
+    column-gap: px;
+    width: 20%;
+    height: 100%;
+    /* float: left; */
+    margin-left: -218px;
     border-bottom-left-radius: 20px;
-    width: 300px;
-    /* gap: 20px; */
-}
-
-
-.three{
-    height: 850px;
-    margin-top: 50px;
-    margin-left: -20px;
-    background-color: #F1F1FB;
+    border-top-left-radius: 20px;
 }
